@@ -344,3 +344,11 @@ footer {
 .right-container p {
   font-size: 16px;
 }
+
+.imagen-agrandable {
+  transition: transform 0.3s; /* Transición suave para la transformación */
+}
+
+.imagen-agrandable:hover {
+  transform: scale(1.1); /* Agranda la imagen al pasar el cursor por encima */
+}
